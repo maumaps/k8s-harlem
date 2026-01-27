@@ -11,7 +11,7 @@ spec:
   secretRef:
     name: disaster-ninja-cd-auth
   suspend: false
-  url: ssh://git@github.com/konturio/disaster-ninja-cd.git
+  url: ssh://git@github.com/maumaps/disaster-ninja-cd.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
