@@ -16,9 +16,9 @@ resources:
   - ../../base/local-path-provisioner-regular
   - ../../base/local-path-provisioner-fast
   - ../../base/postgres-operator
-  - ../../base/minio-operator
-  - ../../base/minio-tenant
-  - ../../base/longhorn
+#  - ../../base/minio-operator
+#  - ../../base/minio-tenant
+#  - ../../base/longhorn
   - ../../base/velero
   - ../../base/tigera-operator
   - ../../base/nvidia-device-plugin
