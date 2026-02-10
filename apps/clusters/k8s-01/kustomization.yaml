@@ -18,7 +18,7 @@ resources:
   - ../../base/open-telemetry
   - ../../base/postgres-exporter-pgo
   - ../../base/karma
-  - flux/podmonitor.yaml
+#  - flux/podmonitor.yaml
 patchesStrategicMerge:
   - flux/alerts.yaml
   - grafana/grafana-ingress.yaml
