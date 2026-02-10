@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - ../../base/vmcluster
   - ../../base/kube-prometheus/_custom_rules
-  - ../../base/kube-prometheus/alertmanager
+#  - ../../base/kube-prometheus/alertmanager
   - ../../base/kube-prometheus/blackbox-exporter
   - ../../base/kube-prometheus/grafana
   - ../../base/kube-prometheus/kube-state-metrics
