@@ -14,7 +14,7 @@ resources:
 #  - ../../base/kube-prometheus/victoriametrics
 #  - ../../base/fluentbit
   - ../../base/flux
-  # - ../../base/cert-manager
+  - ../../base/cert-manager
   - ../../base/open-telemetry
   - ../../base/postgres-exporter-pgo
   - ../../base/karma
@@ -27,6 +27,6 @@ patchesStrategicMerge:
 #  - prometheus/prometheus-ingress.yaml
 #  - prometheus/prometheus-prometheus.yaml
 #  - vmcluster/vmcluster-crd.yaml
-  # - cert-manager/cluster_issuer_letsencrypt_prod.yaml
-  # - cert-manager/cluster_issuer_letsencrypt_stage.yaml
-  # - cert-manager/release.yaml
+  - cert-manager/cluster_issuer_letsencrypt_prod.yaml
+#   - cert-manager/cluster_issuer_letsencrypt_stage.yaml
+  - cert-manager/release.yaml
