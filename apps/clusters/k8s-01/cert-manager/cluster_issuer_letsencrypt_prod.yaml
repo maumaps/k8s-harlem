@@ -6,4 +6,4 @@ metadata:
     kustomize.toolkit.fluxcd.io/reconcile: disabled
 spec:
   acme:
-    email: root+k8s-01-production@kontur.io
+    email: nadzeya@maumap.com
